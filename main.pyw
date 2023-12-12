@@ -7,7 +7,7 @@ try:
         if dt.today().strftime('%H') == dt.today().strftime('%M'):
             noti.notify(title=hora, message="<3", app_name="MirrorHour")
             time.sleep(59)
-        if dt.today().strftime('%S') == "02":
+        if dt.today().strftime('%S') == "02" and setting == 1:
             time.sleep(58)
     while setting == 2 or setting == 3:
         hora = dt.today().strftime('%H:%M')
