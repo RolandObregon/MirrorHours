@@ -36,3 +36,5 @@ La parte funcional es el main.py, mientras que el install.py descarga los paquet
 - 10:10 AM/PM
 - 11:11 AM/PM
 - 12:12 AM/PM
+
+Things to add: small setup window to choose which mirror hours to display and to edit the notification message, will also maybe make a iphone/android app
