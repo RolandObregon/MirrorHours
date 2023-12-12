@@ -6,10 +6,10 @@ import sys
 while True:
     try:
         settimes = int(input("Type a setting"))
-        if settimes in (1, 2):
+        if settimes in (1, 2, 3):
             break
         else:
-            print("Only 2 settings available")
+            print("Only 3 settings available")
     except:
         print("Not valid input")
 setting = settimes
